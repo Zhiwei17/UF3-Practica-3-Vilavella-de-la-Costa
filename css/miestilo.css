@@ -172,19 +172,27 @@ h4 {
     border-radius: 5px;
     box-sizing: border-box;
     overflow: hidden;
+    margin-bottom: 14px;
 }
 
 
 
-#km div { 
+#km div {
+    height: 42px;
 }
 
 
 #kmten {
     background-color: #337ab7;
-
 }
 
+
+.flexCenter{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
 
 .space{
     margin-bottom: 40px;
