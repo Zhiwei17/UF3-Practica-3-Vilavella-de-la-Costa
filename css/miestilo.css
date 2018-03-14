@@ -245,6 +245,7 @@ li:before {
     background-color: #333;
     height: 60px;
     margin: 0 auto;
+    color: white;
 }
 
 .footer p{
