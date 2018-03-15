@@ -227,14 +227,30 @@ li {
     padding-left: 1.3em;
 }
 
-li:before {
-    content: "\f101";
+li:before{
     font-family: FontAwesome;
     display: inline-block;
-    margin-left: -1.3em;
+    margin-left: -0.3em;
     width: 1.3em;
-
+    font-size: 30px;
 }
+
+li:nth-child(1):before{
+    content: "\f252";
+}
+
+li:nth-child(2):before{
+    content: "\f001";
+}
+
+li:nth-child(3):before{
+    content: "\f236";
+}
+
+li:nth-child(4):before{
+    content: "\f0f0";
+}
+
 
 .what {
     width: 100%;
