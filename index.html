@@ -4,13 +4,17 @@
 <head>
     <meta charset="utf-8" />
     <title>Vilavella de la Costa</title>
-    <link rel="shortcut icon" href="/img/favicon.ico" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    
+   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/miestilo.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+     <link rel="stylesheet" type="text/css" href="css/miestilo.css">
     <script src="js/mijs.js"></script>
 
     <!-- http://launchkit.mediumra.re/fitness.html -->
@@ -39,12 +43,13 @@
                         <div class="form-group">
                             <label class="formtext" for="formNombre">Nombre</label>
                             <input type="text" class="form-control" id="formNombre" placeholder="Introduce nombre...">
+                            <p id="nameError">Error pendejo!</p>
                         </div>
                         <div class="form-group">
                             <label class="formtext" for="formEmail">Correo electrónico</label>
                             <input type="email" class="form-control" id="formEmail" placeholder="Introduce email...">
                         </div>
-                        <button type="submit" class="btn btn-primary">« Empezar a correr</button>
+                        <button type="button" id="enviar" class="btn btn-primary">« Empezar a correr</button>
                     </form>
                 </div>
 

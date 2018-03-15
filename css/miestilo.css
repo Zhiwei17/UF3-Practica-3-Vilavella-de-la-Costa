@@ -96,6 +96,7 @@ input[type="text"] {
 
 input[type="email"] {
     height: 50px;
+    font-size: 16px;
 }
 
 
@@ -150,8 +151,7 @@ form {
     height: 239px;
 }
 
-
-h3 {
+h3, h4{
     font-size: 36px;
     line-height: 44px;
     font-weight: 300;
@@ -160,6 +160,9 @@ h3 {
     cursor: default;
     margin-bottom: 13.33333333px;
 }
+
+
+   
 
 .contenido {
     padding: 80px 0 40px 0;
@@ -237,7 +240,7 @@ li:before {
     width: 100%;
     background-color: #333;
     height: 60px;
-
+    padding: 50px;
 }
 
 .footer {
@@ -246,18 +249,30 @@ li:before {
     height: 60px;
     margin: 0 auto;
     color: white;
+    padding: 50px;
 }
 
 .footer p{
 font-size: 25px;
+    
 }
 
 .footer label{
     cursor: pointer;
-    color: white;
 }
 
 .white {
     color: white;
     font-size: 30px;
+}
+
+.footer a{
+    margin: 0px 20px 0px 20px;
+    color: white;
+}
+
+#nameError{
+    display: none;
+    color: red;
+    font-size: 8px;
 }
