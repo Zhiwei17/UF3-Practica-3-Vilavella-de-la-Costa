@@ -6,19 +6,19 @@ $(document).ready(function () {
         $("#kmten").css("background-color", "#064e8c");
         $("#kmmas").css("background-color", "transparent");
     })
-    
-      $("#kmten").keypress(function () {
+
+    $("#kmten").keypress(function () {
         $("#kmten").css("background-color", "#064e8c");
         $("#kmmas").css("background-color", "transparent");
     })
-    
+
 
     $("#kmmas").click(function () {
         $("#kmmas").css("background-color", "#064e8c");
         $("#kmten").css("background-color", "transparent");
     })
-    
-       $("#kmmas").keypress(function () {
+
+    $("#kmmas").keypress(function () {
         $("#kmmas").css("background-color", "#064e8c");
         $("#kmten").css("background-color", "transparent");
     })
@@ -88,14 +88,14 @@ $(document).ready(function () {
 
     //is this the posiblu snipet for the snipt asdaddaksdwpe??
     var vids = $("video");
-    $.each(vids, function(){
-        
+    $.each(vids, function () {
+
         this.controls = false;
 
-        $(this).click(function(){
+        $(this).click(function () {
             this.controls = true;
         })
-        
+
     });
 
 
