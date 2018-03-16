@@ -70,7 +70,7 @@ $(document).ready(function () {
         }
 
         if (zulul == 2) {
-            window.location.replace("thank-you-page.html");
+            window.location.replace("gracias.html");
         }
     })
 
