@@ -73,9 +73,9 @@ h2.text-white {
     display: flex;
     align-items: center;
     padding: 50px;
-    -webkit-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.75);
 }
 
 
@@ -154,7 +154,8 @@ form {
     height: 239px;
 }
 
-h3, h4{
+h3,
+h4 {
     font-size: 36px;
     line-height: 44px;
     font-weight: 300;
@@ -165,7 +166,7 @@ h3, h4{
 }
 
 
-   
+
 
 .contenido {
     padding: 80px 0 40px 0;
@@ -215,9 +216,9 @@ h3, h4{
 .videoCont {
     cursor: pointer;
     z-index: 2147483646;
-        -webkit-box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.75);
     object-fit: cover;
 }
 
@@ -235,7 +236,7 @@ li {
     padding-left: 1.3em;
 }
 
-li:before{
+li:before {
     font-family: FontAwesome;
     display: inline-block;
     margin-left: -0.3em;
@@ -243,19 +244,19 @@ li:before{
     font-size: 30px;
 }
 
-li:nth-child(1):before{
+li:nth-child(1):before {
     content: "\f252";
 }
 
-li:nth-child(2):before{
+li:nth-child(2):before {
     content: "\f001";
 }
 
-li:nth-child(3):before{
+li:nth-child(3):before {
     content: "\f236";
 }
 
-li:nth-child(4):before{
+li:nth-child(4):before {
     content: "\f0f0";
 }
 
@@ -276,12 +277,12 @@ li:nth-child(4):before{
     padding: 50px;
 }
 
-.footer p{
-font-size: 25px;
-    
+.footer p {
+    font-size: 25px;
+
 }
 
-.footer label{
+.footer label {
     cursor: pointer;
 }
 
@@ -290,13 +291,14 @@ font-size: 25px;
     font-size: 30px;
 }
 
-.footer a{
+.footer a {
     margin: 0px 20px 0px 20px;
     color: white;
 }
 
-#nameError{
+#nameError,
+#emailError {
     display: none;
     color: red;
-    font-size: 8px;
+    font-size: 13px;
 }
