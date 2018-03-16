@@ -29,6 +29,11 @@ body {
     color: #fff !important;
 }
 
+.text-black {
+    color: #333 !important;
+}
+
+
 
 h1.text-white {
     font-size: 50px;
@@ -267,14 +272,22 @@ li:nth-child(4):before {
     padding: 50px;
 }
 
-.footer p {
-    font-size: 25px;
 
+.footer-ty {
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    margin: 0 auto;
+    color: #333!important;
+    padding: 60px;
 }
 
-.footer label {
-    cursor: pointer;
+.footer-ty a {
+    margin: 0px 20px 0px 20px;
+    font-size: 20px;
+    color: #333;
 }
+
 
 .white {
     color: white;
